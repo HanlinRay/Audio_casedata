@@ -1,0 +1,50 @@
+{
+  "schema_version": "audiology.ground_truth.v1",
+  "case_id": "A-0027",
+  "gold_labels": {
+    "primary_dx": "Bilateral superior semicircular canal dehiscence (SSCD) presenting with third-window signs",
+    "accepted_differentials": [
+      "Perilymphatic fistula",
+      "Enlarged vestibular aqueduct (EVA)",
+      "Otosclerosis (less likely: normal tymps and reflexes)"
+    ],
+    "test_interpretations": {
+      "audiogram": "Low-frequency ABG with normal immittance suggests third-window rather than middle-ear disease.",
+      "tymp": "Type A bilaterally: middle ear mechanics normal.",
+      "reflexes": "Present at normal SL yet provoke vertigo → Tullio phenomenon (sound-induced).",
+      "ct_temporal_bone": "Dehiscence over SSC confirms SSCD (bilateral)."
+    },
+    "red_flags_expected_to_probe": [
+      "Sound/pressure-induced vertigo or disequilibrium",
+      "Autophony and internal sound amplification",
+      "Trauma/Barotrauma, recent URI, difficulty equalizing",
+      "Neurologic ‘danger’ symptoms (rule-out central causes)"
+    ]
+  },
+  "criteria": {
+    "third_window_pattern": "ABG with A-tymp or present reflexes; sound/pressure provoked vertigo; supportive VEMP; CT positive"
+  },
+  "investigations_guidance": {
+    "appropriate": [
+      "High-resolution temporal bone CT for SSC; consider cVEMP (low threshold/high amplitude) as supportive",
+      "Avoid scuba/straining; ENT/otology referral"
+    ],
+    "inappropriate": [
+      "Empiric antibiotics for ‘conductive loss’ when tymps are A",
+      "CT for middle-ear disease without third-window suspicion"
+    ]
+  },
+  "management_plan": {
+    "expected_elements": [
+      "Conservative first (education, trigger avoidance, activity modification)",
+      "Discuss surgical plugging/resurfacing if disabling or progressive",
+      "Clear return precautions; scheduled follow-up with otology"
+    ],
+    "follow_up": "Routine otology follow-up; earlier if vertigo or functional impact worsens"
+  },
+  "media_map": {
+    "audiogram_image": "media/A-0027_audiogram.png",
+    "tymp_figure": "media/A-0027_tymp.png",
+    "ct_temporal_bone": "media/A-0027_CT.png"
+  }
+}
