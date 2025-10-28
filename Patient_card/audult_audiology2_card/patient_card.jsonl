@@ -1,0 +1,43 @@
+{
+  "schema_version": "audiology.patient_card.v1",
+  "case_id": "A-0027",
+  "title": "Sound-induced vertigo after scuba; autophony; mild CHL right",
+  "demographics": { "age": 48, "sex": "F", "language": "English" },
+  "presenting_problem": {
+    "chief_complaint": "My own voice sounds abnormally loud since a scuba dive; earlier I had spinning and ear pain.",
+    "onset": "sudden",
+    "course": "improved but persistent autophony",
+    "laterality": "right-dominant",
+    "associated_symptoms": ["autophony", "ear fullness (intermittent)"],
+    "negatives_salient": ["no current otorrhea", "no current neurologic deficits"]
+  },
+  "history_bank": {
+    "hearing_history": {
+      "context": "Scuba dive with URI; had difficulty equalizing.",
+      "red_flags": ["sound/pressure-induced vertigo during testing", "A-tymp with air–bone gap"]
+    }
+  },
+  "functional_impact": {
+    "daily_life": ["annoying echo of own voice", "avoids noisy places"]
+  },
+  "uploaded_media": [
+    { "type": "audiogram_image", "label": "Pure-tone audiogram", "path": "media/A-0027_audiogram.png", "alt_text": "Right low-frequency ABG; left slight SNHL" },
+    { "type": "tymp_figure", "label": "Tympanometry", "path": "media/A-0027_tymp.png", "alt_text": "Type A bilaterally" },
+    { "type": "ct_temporal_bone", "label": "Temporal bone CT", "path": "media/A-0027_CT.png", "alt_text": "Dehiscence over superior semicircular canal (arrow)" }
+  ],
+  "structured_results": {
+    "audiometry_summary": { "right": "mild low-frequency CHL (ABG)", "left": "slight SNHL", "asymmetry_present": true },
+    "tymp": { "right": "A", "left": "A" },
+    "acoustic_reflexes": { "ipsi": "present", "contra": "present", "notes": "provokes vertigo at 500/1000 Hz bilaterally" },
+    "provocative_signs": { "tullio": true, "autophony": true }
+  },
+  "patient_script": {
+    "persona": "cooperative, a bit anxious",
+    "opening_line": "Since that dive my own voice booms in my head; I used to have spinning too.",
+    "disclosure_rules": ["Answer only what is asked; do not interpret tests."]
+  },
+  "admin": {
+    "source": "Adult Audiology Casebook – Case 27",
+    "difficulty_tag": "moderate"
+  }
+}
